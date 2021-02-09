@@ -5,6 +5,11 @@
 
 body{
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-image: url("./resources/bgtop2.jpg");
+    background-size: cover;
 }
 .themeColor{
     color: rgb(97,11,174);
@@ -13,44 +18,26 @@ body{
 
 /* DESIGING THE HEADER */
 header {
-    height: 65px;
-    width: 100%;
-    background-color: rgba(97,11,174, 0.2);
-    position :fixed;
+    height: 80px;
+    width: 100vw;
+    position: fixed;
     top: 0;
     z-index: 10;
+    background-size: 3000px;
+    background: linear-gradient(141deg, #e2c87350 0%, #c162e754 , #c7962d5d);    
+    transform: translate(-8px, -5px);
+
 }
 
 .header-left{
     float: left;
-    height: 30%;
-    margin-left: 5%;
+    width: 50vw;
 }
 .logo{
-    width: 22%;
-    height: 22%;
-    margin: 5px 5px;
-}
-.header-right{
-    float: right;
-}
-
-.header-right span{
-    margin: auto 15px;
-}
-.header-right a{
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    display: block;
-    float: left;
-    transition: all .7s;
-    font-family: fantasy;
-    font-size: 30px;
-}
-
-.header-right a:hover {
-    background-color: rgba(255, 145, 0, 0.534);
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-left: 5%;
 }
 
 .menu-icon{
@@ -61,4 +48,119 @@ header {
 .menu-list{
     display: none;
 }
+
+/* DESIGNING TOP IMAGE */
+.container-right{
+    float: right;
+    width: 100vw;
+    padding-top: 1%;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.container-right span{
+    margin: auto 15px;
+}
+.container-right a{
+    
+    font-size: 120%;
+    float: right;
+    transition: all .2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: linear-gradient(135deg, #00000077, #c300ff69);
+    border-bottom: 5px solid white;
+
+    box-shadow:  3px -3px 5px #b89a594b,
+                -5px 5px 5px #eb85ff88;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.callMe{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    padding: 10px 10vw;
+
+}
+.instagram{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    padding: 10px 5vw;
+
+}
+.container-right a:hover {
+    padding: 10px 10vw;
+    background: linear-gradient(45deg, #f6ce7783, #b664cf69);
+    color: orange;
+}
+.container-right a:active{
+    margin-top: 10px;
+    border-radius: 10px;
+    border-bottom: 0px;
+    box-shadow:  5px -5px 10px #b89a59,
+                -3px 3px 10px #ffe685;
+}
+
+
+.container{
+    color: white;
+    display: flex;
+    max-width: 100%;
+}
+.one{
+    width: 100vw;
+    height: 60vh;
+    margin-top: 80px;
+    padding-bottom: 1%;
+    position: absolute;
+    top: 2%;
+    z-index: 1;
+    background-image: url("./resources/bgtop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(-8px, -5px);
+}
+    /* animation: slider 30s infinite linear;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@keyframes slider{
+    0%{
+        background-image: url("./resources/bgtop.png");
+        background-size: cover;
+
+    }
+    50%{
+        background-image: url("./resources/bgtop1.jpeg");
+        background-size: cover;
+
+    }
+} */
+.two{
+    width: 100%;
+}
+.image{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+    
+}
+/* DESIGING THE TOP PORTION BELOW THE FRONT IMAGE */
+.top{
+    transform: translate(-8px, -5px);
+    position: absolute;
+    top: 120vh;
+    width: 100vw;
+}
+
+
+
+
+
 
