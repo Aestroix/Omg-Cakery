@@ -26,17 +26,19 @@ header {
     background-size: 3000px;
     background: linear-gradient(141deg, #e2c87350 0%, #c162e754 , #c7962d5d);    
     transform: translate(-8px, -5px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.472);
 
 }
 
 .header-left{
     float: left;
     width: 50vw;
+    padding-top: 1%;
 }
 .logo{
-    position: relative;
-    width: 80px;
-    height: 80px;
+    position: absolute;
+    width: 130px;
+    height: 130px;
     margin-left: 5%;
 }
 
@@ -53,9 +55,7 @@ header {
 .container-right{
     float: right;
     width: 100vw;
-    padding-top: 1%;
     padding-right: 5vw;
-    padding-left: 5vw;
 }
 
 .container-right span{
@@ -63,7 +63,7 @@ header {
 }
 .container-right a{
     
-    font-size: 120%;
+    font-size: 24px;
     float: right;
     transition: all .2s;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -76,18 +76,19 @@ header {
     box-shadow:  3px -3px 5px #b89a594b,
                 -5px 5px 5px #eb85ff88;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    
 }
 .callMe{
     position: absolute;
-    top: 10%;
-    left: 60%;
+    top: 30%;
+    left: 50%;
     padding: 10px 10vw;
 
 }
 .instagram{
     position: absolute;
-    top: 30%;
-    left: 60%;
+    top: 50%;
+    left: 50%;
     padding: 10px 5vw;
 
 }
@@ -116,31 +117,15 @@ header {
     margin-top: 80px;
     padding-bottom: 1%;
     position: absolute;
-    top: 2%;
+    top: 0;
     z-index: 1;
-    background-image: url("./resources/bgtop.png");
+    background-image: url("./resources/bgtop3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     transform: translate(-8px, -5px);
 }
-    /* animation: slider 30s infinite linear;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-@keyframes slider{
-    0%{
-        background-image: url("./resources/bgtop.png");
-        background-size: cover;
-
-    }
-    50%{
-        background-image: url("./resources/bgtop1.jpeg");
-        background-size: cover;
-
-    }
-} */
+    
 .two{
     width: 100%;
 }
@@ -158,6 +143,7 @@ header {
     top: 120vh;
     width: 100vw;
 }
+
 
 
 
