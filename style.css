@@ -181,19 +181,30 @@ header {
     transform: translate(-8px, -5px);
     width: 100vw;
     background-image: radial-gradient(rgba(166, 75, 202, 0.767) , rgba(255, 166, 0, 0.685));
-    height: 70vh;
     border-top: 2px solid rgba(255, 255, 255, 0.74);
+    
 }
 .heading{
     text-align: center;
     font-family: monospace;
     font-size: 25px;
     line-height: 50%;
-    letter-spacing: 1px;
-
-    
+    letter-spacing: 1px;   
+    width: 100vw;
 }
-.heading h2{
+.items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item img{
+    width: 20vw;
+    height: 25vw;
+    margin: 2vw 2vw;
+    border-radius: 50px;
+    border: 2px solid rgba(93, 5, 255, 0.712);
+    box-shadow:  5px -5px 20px #3033c5,
+                -3px 3px 20px #fdcb00;
 }
 
 
