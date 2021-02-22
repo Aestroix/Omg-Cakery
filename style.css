@@ -208,8 +208,31 @@ header {
 }
 
 
+/* DESIGING THE FOOTER */
+footer{
+    text-align: center;
+    background-color: rgba(4, 44, 4, 0.705);
+    transform: translate(-8px, -5px);
+    width: 100vw;
+    border: 1px solid white;
 
+}
 
+.effort{
+    letter-spacing: 10px;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+h5{
+    letter-spacing: 10px;
+    padding: 5px 5px;
+    font-weight: bolder;
+}
+.foo{
+    color: orange;
+    
+}
 
 
 
