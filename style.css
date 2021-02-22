@@ -197,7 +197,7 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
-.item img{
+.item{
     width: 20vw;
     height: 25vw;
     margin: 2vw 2vw;

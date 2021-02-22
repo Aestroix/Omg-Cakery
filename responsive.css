@@ -1,5 +1,5 @@
 @media(max-width: 1000px){
-    .item img{
+    .item{
         width: 40vw;
         height: 45vw;
         margin: 4vw 5vw;
@@ -12,8 +12,9 @@
     }
     .info h2{
         font-size: 20px;
+        line-height: 15px;
     }
-    .item img{
+    .item{
         width: 80vw;
         height: 85vw;
         margin: 4vw 10vw;
